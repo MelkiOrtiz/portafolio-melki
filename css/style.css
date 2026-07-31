@@ -69,3 +69,43 @@ h1, h2, h3, h4, h5, h6 {
 .section-padding {
     padding: 5rem 0;
 }
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--accent);
+    margin: 0.75rem auto 0;
+    border-radius: 2px;
+}
+
+#biografia {
+    background-color: var(--bg-light);
+}
+
+.skill-badge {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.2rem;
+    margin: 0.35rem;
+    background-color: var(--accent-light);
+    color: var(--accent);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.skill-badge:hover {
+    background-color: var(--accent);
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+#habilidades {
+    background-color: var(--bg-light);
+}
