@@ -15,6 +15,10 @@
     --transition: all 0.3s ease;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--font-body);
     color: var(--text-dark);
@@ -185,4 +189,76 @@ h1, h2, h3, h4, h5, h6 {
 .copyright {
     opacity: 0.6;
     font-size: 0.9rem;
+}
+
+@media (max-width: 320px) {
+    .hero-section {
+        padding: 3rem 0;
+    }
+
+    .profile-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    h1.display-4 {
+        font-size: 1.75rem;
+    }
+
+    .lead {
+        font-size: 0.95rem;
+    }
+
+    .section-padding {
+        padding: 3rem 0;
+    }
+
+    .skill-badge {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .social-link {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 4rem 0;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1.display-4 {
+        font-size: 2rem;
+    }
+
+    .section-padding {
+        padding: 3.5rem 0;
+    }
+
+    .section-title {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .hero-section {
+        padding: 8rem 0;
+    }
+
+    .section-padding {
+        padding: 6rem 0;
+    }
+
+    .container {
+        max-width: 1140px;
+    }
 }
