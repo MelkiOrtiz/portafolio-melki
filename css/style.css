@@ -119,6 +119,11 @@ h1, h2, h3, h4, h5, h6 {
     transition: var(--transition);
 }
 
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
 .card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-lg);
