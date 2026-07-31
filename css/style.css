@@ -143,3 +143,46 @@ h1, h2, h3, h4, h5, h6 {
 .vision-content p {
     margin-bottom: 1.2rem;
 }
+
+.footer-section {
+    background-color: var(--primary);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 3rem 0;
+}
+
+.footer-title {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1.25rem;
+    transition: var(--transition);
+}
+
+.social-link:hover {
+    background-color: var(--accent);
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.copyright {
+    opacity: 0.6;
+    font-size: 0.9rem;
+}
